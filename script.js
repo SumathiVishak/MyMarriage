@@ -9,10 +9,10 @@ setInterval(() => {
     var ex = 0;
    
 
-    document.getElementById("days").innerHTML = timeInt[0]+"days";
-    document.getElementById("hours").innerHTML = timeInt[1]+"hours";
-    document.getElementById("mins").innerHTML = timeInt[2]+"mins";
-    document.getElementById("secs").innerHTML = timeInt[3]+"secs";
+    document.getElementById("days").innerHTML = timeInt[0]+" D";
+    document.getElementById("hours").innerHTML = timeInt[1]+" H";
+    document.getElementById("mins").innerHTML = timeInt[2]+" M";
+    document.getElementById("secs").innerHTML = timeInt[3]+" S";
 }, 1000);
 
 function dhm(ms){
